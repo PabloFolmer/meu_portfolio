@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" /> <!-- Define a codificação do texto -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Faz o site funcionar bem no celular -->
+  <title>contato - Meu Portifolio</title> <!-- Titulo que aparece na aba do navegador -->
+  <link rel="stylesheet" href="styles.css" /> <!-- Puxa o arquivo css pra deixar o site bonito -->
+</head>
+<body>
+  <nav> <!-- Menu fixo na tela -->
+    <ul class="menu"> <!-- Lista do menu -->
+      <li><a href="index.html">Sobre Mim</a></li> <!-- link pra pagina Sobre Mim -->
+      <li><a href="formacao.html">formação</a></li> <!-- Link pra pagina Formação -->
+      <li><a href="portfolio.html">portifolio</a></li> <!-- Link pra pagina Portfólio -->
+      <li><a href="contato.html" class="active">contato</a></li> <!-- Link pra pagina Contato -->
+    </ul>
+  </nav>
+
+  <main> <!-- conteudo principal -->
+    <h1>Contato</h1> <!-- titulo principal -->
+    <form> <!-- formulario pra enviar mensagem -->
+      <label for="nome">Nome:</label><br /> <!-- etiqueta pro campo nome -->
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required /><br /><br /> <!-- campo texto pro nome -->
+
+      <label for="email">Email:</label><br /> <!-- etiqueta pro email -->
+      <input type="email" id="email" name="email" placeholder="seu@email.com" required /><br /><br /> <!-- campo email -->
+
+      <label for="mensagem">Mensagem:</label><br /> <!-- etiqueta pra mensagem -->
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui" required></textarea><br /><br /> <!-- caixa de texto maior -->
+
+      <button type="submit">Enviar</button> <!-- botao enviar -->
+    </form>
+  </main>
+</body>
+</html>

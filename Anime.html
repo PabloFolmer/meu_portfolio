@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meu Portfólio de Animes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1e1e2f;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #282c34;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #61dafb;
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2.5rem;
+      color: #61dafb;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #61dafb;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    ul.anime-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.anime-list li {
+      background: #2c2f4a;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(97, 218, 251, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    ul.anime-list li:hover {
+      background-color: #3a3f68;
+      cursor: pointer;
+    }
+
+    .anime-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    .anime-details {
+      font-size: 0.9rem;
+      color: #bbb;
+      margin-top: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lista de Animes</h1>
+  </header>
+
+  <main>
+    <h2>Animes que já assisti</h2>
+    <ul class="anime-list">
+      <li>
+        <div class="anime-title">Fullmetal Alchemist: Brotherhood (Favorito)</div>
+      </li>
+      <li>
+        <div class="anime-title">Attack on Titan</div>
+      </li>
+      <li>
+        <div class="anime-title">Death Note</div>
+      </li>
+      <li>
+        <div class="anime-title">Naruto Shippuden</div>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    Criado por NgStrife
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+form {
+  max-width: 500px; /* largura maxima do formulario */
+  margin: 0 auto; /* centraliza na pagina */
+}
+
+input, textarea {
+  width: 100%; /* ocupa toda largura do container */
+  padding: 8px; /* espaçamento interno */
+  font-size: 1rem; /* tamanho da letra */
+  border: 1px solid #ccc; /* borda cinza clara */
+  border-radius: 4px; /* cantos arredondados */
+}
+
+button {
+  background-color: #333; /* fundo escuro */
+  color: white; /* texto branco */
+  padding: 10px 20px; /* espaçamento dentro do botão */
+  border: none; /* tira borda */
+  cursor: pointer; /* muda curor quando passa em cima */
+  font-weight: bold; /* texto em negrito */
+  border-radius: 4px; /* cantos arredondados */
+}
+
+button:hover {
+  background-color: #555; /* muda cor do botão quando passa mouse */
+}
+
+/* Reset simples */
+* {
+  margin: 0; /* tira margem padrao */
+  padding: 0; /* tira pading padrao */
+  box-sizing: border-box; /* conta padding dentro da largura */
+}
+
+/* Menu fixo no topo */
+nav {
+  background-color: #333; /* fundo escuro do menu */
+  position: fixed; /* fica fixo na tela */
+  width: 100%; /* ocupa toda largura */
+  top: 0; /* fica no topo */
+  left: 0; /* fica do lado esquerdo */
+  z-index: 1000; /* fica na frente de tudo */
+}
+
+.menu {
+  list-style: none; /* tira os pontinhos da lista */
+  display: flex; /* deixa os itens na linha */
+  justify-content: center; /* centraliza os itens */
+}
+
+.menu li {
+  margin: 0 20px; /* espaço entre os itens */
+}
+
+.menu a {
+  color: white; /* texto branco */
+  text-decoration: none; /* tira o sublinhado */
+  padding: 15px 0; /* espaço em cima e em baixo */
+  display: block; /* faz o link ser bloco */
+  font-weight: bold; /* texto negrito */
+  font-family: Arial, sans-serif; /* fonte simples */
+}
+
+.menu a:hover, .menu a.active {
+  background-color: #555; /* muda fundo quando passa muse ou tá ativo */
+}
+
+/* Espaçamnto para não ficar escondido atrás do menu fixo */
+main {
+  padding: 80px 20px 20px 20px; /* espaço pra nao pegar no menu */
+  font-family: Arial, sans-serif; /* fonte pro texto */
+  max-width: 800px; /* largura max da area principal */
+  margin: auto; /* centraliza o main */
+  line-height: 1.6; /* altura da linha pra facilitar leitura */
+}
